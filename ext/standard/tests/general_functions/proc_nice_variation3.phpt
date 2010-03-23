@@ -5,10 +5,6 @@ Italian PHP TestFest 2009 Cesena 19-20-21 june
 Fabio Fabbrucci (fabbrucci@grupporetina.com)
 Michele Orselli (mo@ideato.it)
 Simone Gentili (sensorario@gmail.com)
---SKIPIF--
-<?php
-if(!function_exists('proc_nice')) die("skip. proc_nice not available ");
-?>
 --FILE--
 <?php
 
@@ -39,10 +35,10 @@ foreach ( $variation_array as $var ) {
 bool(true)
 bool(true)
 
-Warning: proc_nice() expects parameter 1 to be long, Unicode string given in %s on line %d
+Warning: proc_nice() expects parameter 1 to be long, string given in %s on line %d
 bool(false)
 
-Warning: proc_nice() expects parameter 1 to be long, Unicode string given in %s on line %d
+Warning: proc_nice() expects parameter 1 to be long, string given in %s on line %d
 bool(false)
 bool(true)
 bool(true)

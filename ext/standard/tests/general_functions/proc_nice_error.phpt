@@ -1,9 +1,5 @@
 --TEST--
 Test function proc_nice() by calling it more than or less than its expected arguments
---SKIPIF--
-<?php
-if(!function_exists('proc_nice')) die("skip. proc_nice not available ");
-?>
 --FILE--
 <?php
 
